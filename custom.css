@@ -11,5 +11,5 @@ div.output pre, div.output_area pre {
 
 div#notebook, div.prompt {
 	font-family: Consolas;
-	font-size: 14pt;
+	font-size: 14px;
 }
