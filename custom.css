@@ -1,0 +1,15 @@
+div.CodeMirror, div.CodeMirror pre {
+	font-family: D2Coding ligature;
+	font-size: 16pt;
+	line-height: 140%;
+}
+
+div.output pre, div.output_area pre {
+	font-family: Consolas;
+	font-size: 14pt;
+}
+
+div#notebook, div.prompt {
+	font-family: Consolas;
+	font-size: 14pt;
+}
