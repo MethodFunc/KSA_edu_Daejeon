@@ -17,3 +17,7 @@
 6. git push
 
 
+### 3nd
+1. Jupiter Notebook setting
+2. jupyter notebook --generate-config
+3. Edit c.NotebookApp.notebook_dir = '' // erease #
