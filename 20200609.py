@@ -9,15 +9,19 @@ def combinations(s):
     for i, c in enumerate(s):
         res.append(c)   #추가되는 부분 -> [ 'a', 'b', 'c', 'd']
         # print(i, c, res)
+        print(i, c, res, end = ' : ')
         #자기를 뺀 나머지를 비교
         for j in combinations(s[:i] + s[i+1:]):     # 재귀
             res.append(c+j)
+            print(s[:i], end=' / ')
+            print(s[i+1:], end= ' / ')
+            print(s[:i] + s[i+1:], end= ' | ')
             print(i, c, j, res)
     return res
 
 
 if __name__ == "__main__":
-    result = combinations("abcd")
+    result = combinations('1234')
     print(result)
     
     
