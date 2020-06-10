@@ -1,0 +1,5 @@
+# Exclude Jupyter Notebook
+.ipynb_checkpoints
+.idea
+.vscode
+__pycache__
